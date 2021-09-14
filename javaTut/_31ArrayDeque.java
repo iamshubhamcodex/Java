@@ -10,10 +10,10 @@ public class _31ArrayDeque {
 		/**
 		 *	An ArrayDeque(also known as an "Array Doubly Ended Queue",pronounced as "ArrayDeck") is a special kind of a growable array that allows us to add or remove an element from both sides. 
 		 *
-		 *An ArrayDeque implementation can be used as a Stack(Last-In-First-Out) or a Queue(First-In-First-Out).
+		 *	An ArrayDeque implementation can be used as a Stack(Last-In-First-Out) or a Queue(First-In-First-Out).
 		 **/
 		
-		/**In a regular queue, elements are added from the rear and removed from the front. However, in a Deque, we can insert and remove elements from both front and rear.**/
+		/**	In a regular queue, elements are added from the rear and removed from the front. However, in a Deque, we can insert and remove elements from both front and rear.**/
 		
 		
 		/**

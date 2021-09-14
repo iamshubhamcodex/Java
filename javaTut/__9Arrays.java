@@ -8,7 +8,7 @@ public class __9Arrays {
 
 	public static void main(String[] args) {
 		
-		// ARRAYS
+		// ARRAYS[
 	   /**	Arrays is a data structure that is used to store multiple values in a single variable, instead of declaring separate variables
 	    * 	 for each value. It is continuous means every space in memory is alloted one after one.  
 		 *		ex:-	Arrays of Cars => "Suzuki", "Ferrai", "Audi", "BMW", "Ford"
@@ -108,6 +108,8 @@ public class __9Arrays {
 		
 		
 //		sc.close();
+		
+		
 	}
 
 }

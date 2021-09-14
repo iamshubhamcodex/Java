@@ -4,10 +4,10 @@ package javaTut;
 //	protected String name;
 //	static String breed = "Homo Sapiens";
 //	
-//	public Persons() {
+//	Persons() {
 //		
 //	}
-//	public Persons(String name) {	//	Since CONSTRUCTOR is like a methods but it does not return any thing
+//	Persons(String name) {	//	Since CONSTRUCTOR is like a methods but it does not return any thing
 //		this.name = name;
 //	}
 //	public void eat() {
@@ -29,7 +29,7 @@ package javaTut;
 //	public void sing() {
 //			//	since name is protected so to access it we must make person class child that is by using extends keyword
 ////				and similarly it is available to class singer. and if we remove extends keyword then name will not be visible
-////				to Singer class
+////				to Singer class bcz scope of protected is within the package(but we did some mistake)[:)   :)	:)]
 //		System.out.println(this.name + " is singing");
 //		
 //		/**	 If same methods is created in parent and child then child's method will overwrite parent's method**/
@@ -71,8 +71,9 @@ public class _18Inheritance {
 	
 //	Singer s1 = new Singer();
 //	Persons p1 = s1;		//	UPCASTING as singer is person so obj of person can be made
-////	Teacher t1 = (Teacher)p1;	//	on running this code you will get error bcz p1 is instance of singer so when we do this then indirectly we are making
-//								//	Teacher t1 = new Singer(); that is absolutely wrong[ERROR:- Singer cannot be cast to class javaTut.Teacher]
+////	Teacher t1 = (Teacher)p1;	//	on running this code you will get error bcz p1 is instance of singer so when we do this then 
+									//	indirectly we are making Teacher t1 = new Singer(); that is absolutely wrong
+//								//	 [ERROR:- Singer cannot be cast to class javaTut.Teacher]
 ////	Singer s2 = p1;		//	this will also give compile time error bcz person can be teacher or singer so we have to specify it
 //	@SuppressWarnings("unused")
 //	Singer s2 = (Singer)p1;
@@ -83,8 +84,8 @@ public class _18Inheritance {
 	
 	//	SUPER KEYWORD
 		/**
-		 *	In java, super keyword is used to refer to immediate parent class of a child class. In other words super keyword is used by subclass whenever
-		 *	it need to refer to its immediate super class 
+		 *	In java, super keyword is used to refer to immediate parent class of a child class. In other words super keyword is used by 
+		 *	subclass whenever it need to refer to its immediate super class 
 		 *
 		 *	It is used when  parent is in different class and child is in other class
 		 *	like Person class in staticKeyword

@@ -11,15 +11,15 @@ public class _28LinkedList {
 	public static void main(String[] args) {
 		//	LINKEDLIST
 		/**
-		 *	ArrayList is given a sequential place in memory that is one after one but in LinkedList sequential data is placed at different  place 
+		 *	ArrayList is given a sequential place in memory that is one after one but in LinkedList sequential data is placed at different place 
 		 *
 		 *	In LinkedList we store two thing one is data and second is address(reference in java that is called node) of further one. 
 		 *
-		 *	First element is called Head. It is fast when we want to insert or remove some element in between but disadvantage is that if we want to find element(get) then ArrayList is fast
+		 *	First element is called Head. It is fast when we want to insert or remove some element in between but disadvantage is that if we want to find element(get) then ArrayList is fast.
 		 **/
 		
 		/**
-		 *	To store the elements in LinkedLit we use a doubly LinkedList which provides a linear data structure and also used to inherit an abstract class and implement list and deque interfaces. In Java, LinkedList class implements the list interface 
+		 *	To store the elements in LinkedList we use a doubly LinkedList which provides a linear data structure and also used to inherit an abstract class and implement list and deque interfaces. In Java, LinkedList class implements the list interface 
 		 **/
 		
 //		List<Integer> ll = new LinkedList<>();
@@ -42,15 +42,26 @@ public class _28LinkedList {
 		 *		removeLast()
 		 *		addFirst()
 		 *		addLast()
-		 *		peek()
-		 *		poll()
+		 *		peek()		//	retrieves the head
+		 *		poll()		//	retrieves and removes the head
+		 *		element()	//	throw error. It is like peek()
+		 *		contains(Object)
+		 *		size()
+		 *		add(E)
+		 *		remove(Object)
+		 *		addAll(Collection)
+		 *		clear()
+		 *		get(index)
+		 *		set(index, E)
+		 *		remove(index)
 		 *		offerFirst()
 		 *		offerLast()
 		 *		peekFirst()
 		 *		peekLast()
 		 *		pollFirst()
 		 *		pollLast()
-		 * 		pop()
+		 * 		pop()		//	removes and returns the first element of list
+		 * 		push()		//	add element to first position
 		 **/
 		
 		

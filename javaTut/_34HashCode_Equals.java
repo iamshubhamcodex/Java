@@ -22,7 +22,7 @@ public class _34HashCode_Equals {
 		 *
 		 * BEST PRACTICES
 		 *
-		 * Always use same attributes of an object to generate hashCOde() and equals()
+		 * Always use same attributes of an object to generate hashCode() and equals()
 		 * both. equals() must be consistent(if the objects are not modified, then it
 		 * must keep returning the same value) Whenever a.equals(b), then a.hashCode()
 		 * must be same as b.hashCode() If you override one, then you should override

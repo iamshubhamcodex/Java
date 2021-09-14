@@ -48,8 +48,6 @@ public class _11Strings {
 //		System.out.println(ss[0]);
 //		String uu = "91";
 //		int ii = 91;
-//		
-//		
 //		System.out.println(Ut.list("hi how are you")[5]);
 	
 	

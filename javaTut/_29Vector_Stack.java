@@ -11,7 +11,7 @@ public class _29Vector_Stack {
 		
 		//	STACK
 		/**
-		 *	In stack the element which element is added at last is popped out(bahar nikalta) at first like stack of anything in container[jis stack ko pahle dalenge vahi pahle bahar aayega]
+		 *	In Stack the element, that is added at last is popped out(bahar nikalta) at first like stack of anything in container[jis cheez ko baad dalenge vahi pahle bahar aayega]
 		 **/
 		/**
 		 *	Methods
@@ -30,6 +30,7 @@ public class _29Vector_Stack {
 //		
 ////		System.out.println(popped); 
 //		System.out.println(st.peek()); 
+//		System.out.println(st.isEmpty());
 		 
 //		MyStack<Integer> stack = new MyStack<>();
 //		stack.push(452);

@@ -9,7 +9,7 @@ public class __4Operators {
 		 *	Operators are just operation between two values
 		 *
 		 *	There are 5 types of OPERATORS:-
-		 *		1.	Arithmetic
+		 *		1.	Arithmetic 
 		 *		2.	Bitwise
 		 *		3.	Assignment
 		 *		4.	Comparison

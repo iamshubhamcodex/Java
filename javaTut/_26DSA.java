@@ -11,8 +11,8 @@ public class _26DSA {
 	
 	//	COLLECTION FRAMEWORK
 	/**
-	 *	These are some framework for Data Structure that is built by Java Developer 
-	 *	In Collection Framework there are three types first COLLECTION INTERFACE second MAP INTERFACE third ITERATOR INTERFACE
+	 *	These are some framework for Data Structure that is built by Java Developer. 
+	 *	In Collection Framework there are three types first COLLECTION INTERFACE second MAP INTERFACE third ITERATOR INTERFACE	Iterator
 	 *
 	 *	COLLECTION FRAMEWORK includes:-
 	 *		List
@@ -20,7 +20,7 @@ public class _26DSA {
 	 *		Queue
 	 *		Map
 	 *		Natural Ordering and Sorting
-	 *		 Comparators
+	 *		Comparators
 	 **/
 	
 		//	COLLECTION INTERFACE IMPLEMENTS COLLECTON FREAMEWORK
@@ -29,15 +29,18 @@ public class _26DSA {
 		 *	Java does not provide direct implementations of the Collection Interface but provides implementations of its 
 	 	 *	like List, Set, Queue.	
 	 	 *
-	 	 *	We can not make object of Collection framework but we can make object of their children
+	 	 *	We can not make object of Collection framework(as it is INTERFACE) but we can make object of their children
 		 * 	METHODS OF COLLECTION:-
-		 * 		add()- inserts the specified element to the collection
+		 * 		add(E)- inserts the specified element to the collection
 		 *  	size() - returns the size of the collection	
-		 *   	remove() - removes the specified element from the collection	
+		 *   	remove(Object) - removes the specified element from the collection	
 		 *    	iterator() - returns an iterator to access elements of the collection
-		 *     	addAll() - adds all the elements of a specified collection to the collection
-		 *      removeAll() - removes all the elements of the specified collection form the collection
+		 *     	addAll(Collection) - adds all the elements of a specified collection to the collection
+		 *      removeAll(Collection) - removes all the elements of the specified collection form the collection
 		 *      clear() - removes all the elements of the collection
+		 *      toArray() - converts a Collection to an Array
+		 *      toArray(T[]) - converts a Collection to an Array of specified type
+		 *      retainAll(Collection) - removes all element not in the Collection
 		 *        		
 		 *   these methods are methods of collection framework means the interface which implements collection framework
 		 *   will have these methods       		

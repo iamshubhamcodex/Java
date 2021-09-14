@@ -32,7 +32,8 @@ public class _21Polymorphism {
 		/**RUNTIME POLYMORPHISM
 		 * 
 		 *	It is also known as Dynamic binding. Late binding and overriding as well. 
-		 *	Overriding is run-time polymorphism having same method with same parameters or signature, but associated in a class & its subclass. 
+		 *	Overriding is run-time polymorphism having same method with same parameters or signature, but associated in a class & its 
+		 *	subclass. 
 		 *	Slower execution 
  		 *
  		 *	Variable Name can not be overridden it can only be hidden

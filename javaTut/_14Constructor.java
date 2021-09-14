@@ -1,9 +1,9 @@
 package javaTut;
 //import m.Ut;
 
-//class Vehicle{
-//	int wheels, headlight;
-//	String Brand, color, name;
+class Vehicle{
+	int wheels, headlight;
+	String Brand, color, name;
 //	
 //	public static Vehicle crV(){
 //		Vehicle vh = new Vehicle();
@@ -16,6 +16,8 @@ package javaTut;
 //	}
 //	Vehicle(int wheels){
 //		if(wheels == 3) {this.name = "Auto";}else this.name = "Car";
+//		if(wheels == 2) {this.name = "Bike";}else this.name = "Car";
+//					
 //		this.wheels = wheels;
 //	}
 //	Vehicle(String Brand, String color){
@@ -33,7 +35,7 @@ package javaTut;
 //		this.Brand = Brand;		//	here this (keyword) corresponds to parent class Vehicle' element
 //		this.color = color;
 //	}
-//}
+}
 
 public class _14Constructor {
 		
@@ -67,5 +69,8 @@ public class _14Constructor {
 //		System.out.println(u.wheels);
 //		System.out.println("No of wheels in " + h.name +  " is " + h.wheels + " and Brand is " + h.Brand + " and color is " + h.color);
 //		
+				
 	}
+	
+	
 }

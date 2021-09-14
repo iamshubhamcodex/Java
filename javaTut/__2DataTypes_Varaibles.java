@@ -55,34 +55,34 @@ public class __2DataTypes_Varaibles {
 		 * 
 		 * 		
 		 **/
-		@SuppressWarnings("unused")
-		int integer1;
-		integer1 = 65;
-		
-		@SuppressWarnings("unused")
-		byte byte1;		// 	If you will assign a value greater than range of Integers Data Types 
-		byte1 = 69; 	//	it will throw an error that it doesn't belong to current Data Types 
-		
-		@SuppressWarnings("unused")
-		int short1;		//	You can also not use that variable name,
-		short1 = 6565;	//	which is reserved for some specific  keywords [int, short, static, final etc are reserved]
-		
-		@SuppressWarnings("unused")
-		int long1;
-		long1 = 66546555;
-		
-		
-		@SuppressWarnings("unused")
-		int integer2 = 45;
-		
-		@SuppressWarnings("unused")
-		byte byte2 = 98; 	
-		
-		@SuppressWarnings("unused")
-		int short2 = 46546;	
-		
-		@SuppressWarnings("unused")
-		int long2 = 549846535;
+//		@SuppressWarnings("unused")
+//		int integer1;
+//		integer1 = 65;
+//		
+//		@SuppressWarnings("unused")
+//		byte byte1;		// 	If you will assign a value greater than range of Integers Data Types 
+//		byte1 = 69; 	//	it will throw an error that it doesn't belong to current Data Types 
+//		
+//		@SuppressWarnings("unused")
+//		int short1;		//	You can also not use that variable name,
+//		short1 = 6565;	//	which is reserved for some specific  keywords [int, short, static, final etc are reserved]
+//		
+//		@SuppressWarnings("unused")
+//		int long1;
+//		long1 = 66546555;
+//		
+//		
+//		@SuppressWarnings("unused")
+//		int integer2 = 45;
+//		
+//		@SuppressWarnings("unused")
+//		byte byte2 = 98; 	
+//		
+//		@SuppressWarnings("unused")
+//		int short2 = 46546;	
+//		
+//		@SuppressWarnings("unused")
+//		int long2 = 549846535;
 		
 	}
 }

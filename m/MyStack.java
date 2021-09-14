@@ -6,13 +6,24 @@ public class MyStack<E> {
 	public void push(E e) {
 		ll.add(e);
 	}
-	public E peek() throws Exception {
-		if(ll.isEmpty()) throw new Exception("Popping from empty stack is not liable");
+	@SuppressWarnings("unchecked")
+	public E peek()  {
+		if(ll.isEmpty()) return (E)("Popping from empty stack is not liable");
 		return ll.getLast();
 	}
-	public E pop() throws Exception {
-		if(ll.isEmpty()) throw new Exception("Popping from empty stack is not liable");
+	@SuppressWarnings("unchecked")
+	public E pop() {
+		if(ll.isEmpty()) return (E)("Popping from empty stack is not liable");
 		return ll.removeLast();
 	}
-	
+
+	public static void main(String[] args) {
+		MyStack<Integer> ms = new MyStack<>();
+		ms.push(5);
+		ms.push(25);
+		ms.push(5);
+		ms.push(55);
+		ms.peek();
+		
+	}
 }

@@ -1,12 +1,15 @@
 package m;
 
 public class MyDeque<E> {
-	Node<E> head, tail;
+	private Node<E> head, tail;
+
+	public void add(E data) {
+		addToTail(data);
+	}
 	
 	public void addToHead(E data) {
 		Node<E> toAdd = new Node<>(data);
-		
-		if(head == null) {
+		if (head == null) {
 			head = tail = toAdd;
 			return;
 		}
@@ -14,31 +17,64 @@ public class MyDeque<E> {
 		toAdd.prev = head;
 		head = head.next;
 	}
-	
-	public E removeLast() {
-		if(head == null) {
-			return null;
-		}
-		E temp = tail.data;
-		tail = tail.next;
-		
+
+	public void addToTail(E data) {
+		Node<E> toAdd = new Node<>(data);
 		if(tail == null) {
-			head = null;
-		}else {
-			tail.prev = null;			
+			head = tail = toAdd;
 		}
-		
-		return temp;
+		tail.next = toAdd;
+		toAdd.prev = tail;
+		tail = tail.next;
 	}
-	
+
+	@SuppressWarnings("unchecked")
+	public E removeLast() {
+		if (head == null)
+			return (E) "Can not remove from empty Deque";
+
+		E dat = tail.data;
+		tail = tail.next;
+
+		if (tail == null) {
+			head = null;
+		} else {
+			tail.prev = null;
+		}
+		return dat;
+	}
+
+	@SuppressWarnings("unchecked")
+	public E removeFirst() {
+		if (head == null)
+			return (E) "Can not remove from empty Deque";
+		if(head.next == null) {
+			Node<E> h = head;
+			head = tail = null;
+			return h.data;
+		}
+		Node<E> tmp = head;
+		Node<E> tp = head.next;
+		tp.prev = null;
+		head = head.next;
+		return tmp.data;
+	}
+
+	public E getFirst() {
+		return head.data;
+	}
+
+	public E getLast() {
+		return tail.data;
+	}
+
 	public static class Node<E> {
-		E data;
 		Node<E> next, prev;
-			
-		
-		public Node(E data){
+		E data;
+
+		public Node(E data) {
 			this.data = data;
-			this.next = this.prev = null;
+			next = prev = null;
 		}
 	}
 	

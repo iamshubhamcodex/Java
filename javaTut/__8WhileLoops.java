@@ -1,6 +1,6 @@
 package javaTut;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 //import m.Ut;
 
@@ -52,13 +52,13 @@ public class __8WhileLoops {
 		 * want to check condition
 		 **/
 		
-		int n = 1;
-		do {
-			Scanner sc = new Scanner(System.in);
-			n = sc.nextInt();
-			sc.close();
-			System.out.println("hi " + n);
-		}while(n != 0);
+//		int n = 1;
+//		do {
+//			Scanner sc = new Scanner(System.in);
+//			n = sc.nextInt();
+//			sc.close();
+//			System.out.println("hi " + n);
+//		}while(n != 0);
 		
 		
 		

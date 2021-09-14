@@ -3,7 +3,7 @@ package javaTut;
 //import java.util.*;
 //import java.util.Map.Entry;
 
-public class _32HashMaps {
+public class _32Maps {
 
 	public static void main(String[] args) {
 		// MAPS
@@ -16,7 +16,7 @@ public class _32HashMaps {
 		 * 
 		 * 	METHODS
 		 * 	put(K, V) - Inserts the association of a key K and a value V into the map. If the key is already present, the new value replaces the old value.
-		 * 	putAll() - Insrts all the entries from the specified map to this map
+		 * 	putAll() - Inserts all the entries from the specified map to this map
 		 * 	putIfAbsent(K, V) - Inserts the association if the key K is not already associated with the value V.
 		 * 	get(K) - Returns the value associated with the specified key K. If the key is not found, it will return null.
 		 * 	getOrDefault(K, defaultValue) - Return the value associated with the specified key K. If the key is not found, it returns the defaultValue

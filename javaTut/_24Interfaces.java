@@ -1,5 +1,8 @@
 package javaTut;
 
+
+//import m.Ut;
+
 //interface YouTuber {
 //	void makeVideos();	//	public, abstract is default
 //	default void uploadVideos() {
@@ -45,7 +48,7 @@ public class _24Interfaces {
 		 * have used the interface keyword to declare an interface.
 		 *
 		 * It is used to implements one or more interfaces because we can not extends
-		 * more than one class in Java so if we want to two or more property of another
+		 * more than one class in Java so if we want to import two or more property of another
 		 * class than we declare them as interface and then implement them
 		 **/
 
@@ -66,16 +69,19 @@ public class _24Interfaces {
 		 *	Few important points about Interfaces: 
 		 *		1. We can't instantiate an interface in java. 
 		 *		2. We can't instantiate Interfaces because they don't have constructors and interfaces can't have a method with body. 
-		 *		3. By default any attribute of interface is public, static and final, so we don't need to provide access modifiers to the attributes but if we do, compiler doesn't complain about it either. 
-		 *		4. By default interface methods are implicitly abstract and public, it makes total sense because the method don't have body and so that subclasses can provide the method implementation. 5. An interface can't extend any class but it can extend another interface. 6. A class implementing an interface must provide implementation for all of its method unless it's an 
-		 *		abstract class.
+		 *		3. By default, any attribute of interface is public, static and final, so we don't need to provide access modifiers to the attributes but if 
+		 *		we do, compiler doesn't complain about it either. 
+		 *		4. By default interface methods are implicitly abstract and public, it makes total sense because the method don't have body and so that subclasses can provide the method implementation.  
 		 *		5. An interface can't extend any class but it can extend another interface. 
  		 *		6. A class implementing an interface must provide implementation for all of its method unless it's an abstract class.
  		 **/
 		
 //		YouTuber yt = p;	//	UPCASTING
 //		yt.makeVideos();	//	since we make person a youtuber so person's function is restricted to a YOUTUBER
-//		yt.study();
+//		yt.study();	
+		get();
 	}
+	public static void get() {
 
+	}
 }

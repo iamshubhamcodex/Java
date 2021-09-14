@@ -20,8 +20,8 @@ public class _19SingletonClass_MultipleInheritance {
 		//SINGLETON PATTERN
 
 	   /**
-		* 	Singleton pattern is mostly used in multi-threaded and database applications. It is used in logging, caching, thread pools, configuration settings etc.
-		* 	thread pools, configuration settings etc.
+		* 	Singleton pattern is mostly used in multi-threaded and database applications. It is used in logging, caching, thread pools,
+		*   configuration settings etc.
 		**/
 
 //		_19AppConfig obj1 = _19AppConfig.getIns();

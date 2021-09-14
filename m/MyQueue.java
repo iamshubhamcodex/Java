@@ -1,28 +1,12 @@
 package m;
 
-import m.MyLinkedList.Node;
-
 public class MyQueue<E> {
-
-	private Node<E> head, rear;
+	private m.MyDeque<E> md = new m.MyDeque<>();
 	
 	public void enqueue(E e) {
-		Node<E> toAdd = new Node<>(e);
-		if(head == null) {
-			head = rear = toAdd;
-			return;
-		}else {		
-		rear.next = toAdd;
-		rear = rear.next;
-		}
+		md.add(e);
 	}	
 	public E dequeue() {
-		if(head == null) {
-			return null;
-		}
-		Node<E> temp = head;
-		head = head.next;
-		if(head == null) rear = null;
-		return temp.data;
+		return md.removeFirst();
 	}
 }

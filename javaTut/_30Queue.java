@@ -13,7 +13,7 @@ public class _30Queue {
 	/**
 	 *	Working of Queue
 	 *
-	 * 	In queues, elements are stored and accessed in First In, First Out manner. That is, elements are added from the behind and removed from the front.
+	 * 	In queues, elements are stored and accessed in => First In, First Out manner. That is, elements are added from the behind and removed from the front.
 	 * 
 	 * 
 	 *	METHODS OF QUEUE
