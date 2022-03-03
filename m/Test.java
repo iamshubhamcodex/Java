@@ -1,11 +1,8 @@
 package m;
 
-import java.io.*;
-import java.util.*;
-
 class Test {
-	public static void main(String args[]) throws Exception {
-		boolean wi = (4>4) ? true : false;
+	public static void main(String args[]){
+		boolean wi = (4>3);
 		System.out.println(wi);
 	}
 }
